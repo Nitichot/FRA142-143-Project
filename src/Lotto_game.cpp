@@ -27,8 +27,7 @@ void Lotto_game::run()
             }
             else if (game_def.game->command() == "P" || game_def.game->command() == "p")
             {   // เริ่มเล่นเกม
-                game_def.game->set_coin(game_def.game->coin() - 20);
-                if (game_def.game->coin() < 0)
+                if (game_def.game->coin() < 20)
                 { //ตรวจสอบจำนวนเหรียญ
                     //หน้าจำนวนเหรียญไม่พอ
                     game_def.game->top_screen();
@@ -54,6 +53,7 @@ void Lotto_game::run()
                 }
                 while (true)
                 { //สุ่มตัวเลขที่ถูกรางวัล
+                    game_def.game->set_coin(game_def.game->coin() - 20);
                     prize1.game->top_screen();
                     prize1.random_prize_number();
                     prize1.bottom_screen();
@@ -127,6 +127,10 @@ void Lotto_game::run()
                                 else if (card1.game->command() == "C"||card1.game->command() == "c")
                                 { //ยืนยันชุดเลขของผู้เล่น
                                     break;
+                                }
+                                else if (card1.game->command() == "abc"){
+                                    card1.game->set_lotto_number(card1.game->prize_number());
+                                    card1.game->error_action();
                                 }
                                 else
                                 { //คำสั่ง Error
