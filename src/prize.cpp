@@ -76,7 +76,7 @@ void prize::awards_received()
     {
     case 0:
         std::cout << "|           ----------------------------------------              |\n";
-        std::cout << "|           !!!  Opppps You didn't got any coin. !!!              |\n";
+        std::cout << "|           !!!  Opppps You didn't get any coin. !!!              |\n";
         std::cout << "|           ----------------------------------------              |\n";
         break;
     case 1:

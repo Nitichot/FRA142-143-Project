@@ -10,7 +10,7 @@ Lotto_game::Lotto_game()
 void Lotto_game::run()
 { // run program
     // set จำนวนเงิน 100 เหรียญ
-    game_def.game->set_coin(100);
+    game_def.game->set_coin(10);
 
     while (true)
     {
