@@ -29,4 +29,32 @@ Non functional requirements
 6. ระบบสามารถทำการสุ่มรางวัลและหมายเลขที่จะซื้อได้ไม่จำกัดจำนวนครั้ง
 
 ## User manual
-[User manual](https://www.canva.com/design/DAGotyK_d_o/EES2TcQhKG42UPy4-1XQfg/edit?utm_content=DAGotyK_d_o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+หน้าหลัก
+พิมพ์คำสั่งที่ Confirm action:
+พิมพ์ P เพื่อเริ่มเล่น
+พิมพ์ R เพื่อดูกติกาเกมส์
+พิมพ์ D เพื่อดูเงื่อนไขการได้รางวัล
+พิมพ์ H เพื่อกลับมาหน้าหลัก
+พิมพ์ Q เพื่อออกจากเกมส์
+
+หน้าสุ่มเลขรางวัล
+พิมพ์ R เพื่อเริ่มสุ่ม สามารถพิมพ์อีกครั้งได้หากไม่พอใจในเลขรางวัล
+พิมพ์ C เพื่อยืนยันเลขรางวัล
+
+หน้าให้เลือกซื้อ Lotto
+พิมพ์เลข 1-5 เพื่อเลือกซื้อ
+พิมพ์ C เพื่อยืนยันการซื้อ เกมส์จะทำการหักเงิน 20 เหรียญอัตโนมัติ
+
+หน้าประกาศรางวัล
+พิมพ์เลข 1,2 3 เพื่อเลือกตำแหน่งที่ต้องการเปิด
+พิมพ์ A เพื่อเปิดทุกตำแหน่งพร้อมกัน
+พิมพ์ C เพื่อตรวจสอบรางวัล
+
+หน้ารับรางวัล
+จะทราบเงินรางวัลที่ได้รับ
+พิมพ์ H เพื่อกลับไปหน้าหลัก
+
+หากเงินเหลือน้อยกว่า 20 เหรียญ จะไม่สามารถซื้อ Lotto ได้
+พิมพ์ Q เพื่อออกจากเกมส์
+
+เปิดที่ลิ้งนี้เพื่ออ่านเพิ่มเติม [User manual file](https://www.canva.com/design/DAGotyK_d_o/LMNMHKFy8WSjB-bd7LsgNQ/view?utm_content=DAGotyK_d_o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9ec39237ff)
