@@ -27,3 +27,6 @@ Non functional requirements
 4. ระบบจะสุ่มเลขรางวัลที่ถูกรางวัลเป็นเลข 5 หลัก
 5. ระบบจะสุ่มเลขที่ผู้เล่นซื้อได้ทั้งหมด 5 หมายเลข
 6. ระบบสามารถทำการสุ่มรางวัลและหมายเลขที่จะซื้อได้ไม่จำกัดจำนวนครั้ง
+
+## User manual
+[User manual](https://www.canva.com/design/DAGotyK_d_o/EES2TcQhKG42UPy4-1XQfg/edit?utm_content=DAGotyK_d_o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
