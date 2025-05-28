@@ -16,7 +16,7 @@
 3 | 50 |
 ## Function and Non-function
 
-Functional requirements
+### Functional requirements
 1. ผู้เล่นสามารถดูยอดเหรียญคงเหลือภายในเกมได้
 2. ผู้เล่นสามารถดูกฎของเกมได้
 3. ผู้เล่นสามารถดูรายละเอียดการชนะรางวัลได้
@@ -24,7 +24,7 @@ Functional requirements
 5. ผู้เล่นสามารถเลือกที่จะสุ่มเลขที่ซื้อได้ตามต้องการ
 6. ผู้เล่นสามารถเลือกลำดับหลักที่ต้องการเช็ครางวัลได้ตามต้องการ
 
-Non functional requirements 
+### Non functional requirements 
 1. ระบบจะให้เหรียญเริ่มต้นแก่ผู้เล่นจำนวน 100 เหรียญ
 2. ระบบใช้เหรียญในการเล่นแต่ละรอบจำนวน 20 เหรียญ
 3. รางวัลของแต่ละรอบจะอยู่ระหว่าง 10 ถึง 50 เหรียญ
@@ -64,7 +64,7 @@ Non functional requirements
 เปิดที่ลิ้งนี้เพื่ออ่านเพิ่มเติม [User manual file](https://www.canva.com/design/DAGotyK_d_o/LMNMHKFy8WSjB-bd7LsgNQ/view?utm_content=DAGotyK_d_o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9ec39237ff)
 
 ## Inheritance
-Class game_defult , prize , card นั้นจะ Inheritance มาจาก Class game display ซึ่งใช้เเสดงส่วนต่างๆของหน้าต่าง ซึ่งจะมี function ดังนี้
+### Class game_defult , prize , card นั้นจะ Inheritance มาจาก Class game display ซึ่งใช้เเสดงส่วนต่างๆของหน้าต่าง ซึ่งจะมี function ดังนี้
 
 1. top_screen ที่เเสดงส่วนด้านบนของหน้าต่าง
 2. Bottom_screen ที่เเสดงส่วนด้านล่างของหน้าต่าง
@@ -72,7 +72,7 @@ Class game_defult , prize , card นั้นจะ Inheritance มาจาก 
 4. input_action เมื่อได้รับคำสั่งที่ตรงกับที่กำหนดไว้ ทำงานและแสดงผล
 5. error_action เมื่อได้รับคำสั่งที่ไม่ตรงกับที่กำหนดไว้ ทำงานและแสดงผล 
 
-Class 
+### Class 
 1. game_default	เรียกใช้รูปแบบหน้าซึ่งประกอบไปด้วย หน้าหลัก หน้ากติกา และหน้ารายละเอียดรางวัล ในเกม
 2. prize ที่เรียกใช้รูปแบบหน้าต่างสุ่มผลเลขรางวัลในเกม เเสดงเลขที่ถูกรางวัล รวมถึงการสุ่มเลขที่ถูกรางวัล
 3. card เรียกใช้รูปแบบหน้าเลือก Lotto หน้ายืนยัน Lotto ในเกม การเปิดเลขใน lotto เเละการสุ่ม lotto
