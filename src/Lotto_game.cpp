@@ -51,7 +51,6 @@ void Lotto_game::run()
                     }
                     break;
                 }
-                game_def.game->set_coin(game_def.game->coin() - 20);
                 while (true)
                 { // สุ่มตัวเลขที่ถูกรางวัล
                     prize1.game->top_screen();
@@ -117,6 +116,7 @@ void Lotto_game::run()
                             card1.game->top_screen();
                             card1.confirm_lotto(choosed_number);
                             card1.bottom_screen();
+                            game_def.game->set_coin(game_def.game->coin() - 20);
                             card1.game->input_action();
                             while (true)
                             {
